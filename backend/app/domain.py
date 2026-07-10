@@ -1,0 +1,6 @@
+DOMAIN_SUMMARY = 'Education planning escalations require timely and effective triage to ensure students receive the necessary support. This project aims to develop a simple RAG system to categorize and prioritize escalations.'
+USER_PERSONA = 'Education Planner: A professional responsible for planning and coordinating educational programs and services.'
+STARTER_QUESTIONS = ['What are the common types of education planning escalations?', 'How can we categorize and prioritize escalations effectively?', 'What are the key performance indicators for education planning escalation triage?']
+WORKFLOW_STEPS = ['Escalation submission', 'Categorization and prioritization', 'Data storage and retrieval', 'User dashboard display']
+BUSINESS_RULES = ['Escalations must be categorized and prioritized within 2 hours', 'High-priority escalations must be addressed within 1 hour', 'User authentication and authorization must be enforced']
+TOOL_CATALOG = [{'name': 'fastapi', 'description': 'A modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints'}, {'name': 'react', 'description': 'A JavaScript library for building user interfaces'}, {'name': 'docker', 'description': 'A containerization platform for developing, shipping, and running applications'}]
